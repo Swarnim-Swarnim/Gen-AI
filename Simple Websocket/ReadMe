@@ -1,5 +1,5 @@
 1. Supports in both forward and backward communication using TCP protocol. 
 2. Client to server & Server to Client both way messages can be sent/received.
-3. Await is to wait till the message is sent or received from the other side when used in any side of the program.
-4. In toal, we have three functions in server side.
-5. (Server Side) : One is init, other one is for starting server along with calling necessary function to receive the messages from client side, last one is fucniton itself which is called inside (server making) function.
+3. Await is to wait till the message is sent or received from the other side when used in any side of the program. (Port is need to be specified in both client and server side python code on which messages are to be sent or received from one another).
+4. In toal, we have three functions in server side. (Asyncio is used to call main function in server side & client function in client side).
+5. (Server Side) : One is init, other one (main) is for starting server at specified port along with calling necessary function (server) to receive the messages from client side, last one is (server) function itself which is called inside (main) function.
