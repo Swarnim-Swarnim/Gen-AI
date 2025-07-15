@@ -1,3 +1,5 @@
 1. Supports in both forward and backward communication using TCP protocol. 
 2. Client to server & Server to Client both way messages can be sent/received.
-3. Await is to wait till the message is sent or received from the server side when used in client side of the program.
+3. Await is to wait till the message is sent or received from the other side when used in any side of the program.
+4. In toal, we have three functions in server side.
+5. (Server Side) : One is init, other one is for starting server along with calling necessary function to receive the messages from client side, last one is fucniton itself which is called inside (server making) function.
